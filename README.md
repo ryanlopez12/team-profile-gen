@@ -30,3 +30,8 @@ This application is a team profile generator that is created by command line pro
 - THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 - WHEN I decide to finish building my team
 - THEN I exit the application, and the HTML is generated
+
+## Example of Team Created in HTML
+
+
+![2022-03-06 11_44_22-127 0 0 1_5500_dist_NewTeam html](https://user-images.githubusercontent.com/17996569/156939514-4569a0e9-8dbf-4ab6-ab5a-9e0b1ebb078d.png)
