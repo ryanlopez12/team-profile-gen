@@ -12,7 +12,7 @@ const constructHTML = (employeeArray) => {
   <h4><b>${manager.getName()}</b></h4>
   <p>${manager.getRole()}</p>
   <p>${manager.getId()}</p>
-  <p><a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a</p>
+  <p><a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></p>
   <p>${manager.getOfficeNumber()}</p>
 </div>
 </div>`;
@@ -46,7 +46,7 @@ const constructHTML = (employeeArray) => {
   };
 
   const html = [];
-  
+
   html.push(
       employeeArray
           .filter((employee) => employee.getRole() === "Manager")
