@@ -46,8 +46,7 @@ const constructHTML = (employeeArray) => {
   };
 
   const html = [];
-
-  // Filter by role, join HTML into one string to push into wrapper HTML
+  
   html.push(
       employeeArray
           .filter((employee) => employee.getRole() === "Manager")
@@ -69,7 +68,6 @@ const constructHTML = (employeeArray) => {
   return html.join("");
 };
 
-// Return wrapper HTML with user inputed employee HTML
 module.exports = (employeeArray) => {
   return `
   <!DOCTYPE html>
